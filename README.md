@@ -2,8 +2,8 @@
 
 ## TODO
 
-- [] Make it deply (vercel)
-- [] Scaffold basi ui with mock data
+- [X] Make it deply (vercel)
+- [X] Scaffold basi ui with mock data
 - [] Actually set up a database (vercel postgres)
 - [] Attach database to UI
 - [] Add authentication (w/ clerk)
@@ -13,4 +13,9 @@
 - [] Delete button (w/ server Actions)
 - [] Analytics (posthog)
 - [] Ratelimiting (upstash)
-- [] Final testing
+
+## USED TECNOLOGIES
+
+- Github to Version
+- Vercel to deploy
+- Uploadthing to storage image
