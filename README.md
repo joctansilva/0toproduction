@@ -19,3 +19,7 @@
 - Github to Version
 - Vercel to deploy
 - Uploadthing to storage image
+
+## WHEN I STOPED CLASS
+
+23m35s
