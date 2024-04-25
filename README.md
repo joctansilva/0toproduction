@@ -4,8 +4,9 @@
 
 - [X] Make it deply (vercel)
 - [X] Scaffold basi ui with mock data
-- [] Actually set up a database (vercel postgres)
-- [] Attach database to UI
+- [X] Tidy up build process
+- [X] Actually set up a database (vercel postgres)
+- [X] Attach database to UI
 - [] Add authentication (w/ clerk)
 - [] Add image Upload
 - [] Error management (w/ sentry)
