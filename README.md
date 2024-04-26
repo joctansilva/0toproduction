@@ -10,6 +10,7 @@
 - [X] Add authentication (w/ clerk)
 - [] Add image Upload
 - [] "taint" (server-only)
+- [] Use Next/Image component
 - [] Error management (w/ sentry)
 - [] Routing/image page (parallel route)
 - [] Delete button (w/ server Actions)
@@ -21,6 +22,8 @@
 - Github to Version
 - Vercel to deploy
 - Uploadthing to storage image
+- Drizle to Database
+- Clerck to Authentication
 
 ## WHEN I STOPED CLASS
 
