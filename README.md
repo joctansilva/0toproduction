@@ -8,8 +8,8 @@
 - [X] Actually set up a database (vercel postgres)
 - [X] Attach database to UI
 - [X] Add authentication (w/ clerk)
-- [] Add image Upload
-- [] "taint" (server-only)
+- [X] Add image Upload
+- [X] "taint" (server-only)
 - [] Use Next/Image component
 - [] Error management (w/ sentry)
 - [] Routing/image page (parallel route)
@@ -27,4 +27,4 @@
 
 ## WHEN I STOPED CLASS
 
-23m35s
+1h13m08s
