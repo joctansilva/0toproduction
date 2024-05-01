@@ -11,7 +11,7 @@
 - [X] Add image Upload
 - [X] "taint" (server-only)
 - [X] Use Next/Image component
-- [] Error management (w/ sentry)
+- [X] Error management (w/ sentry)
 - [] Routing/image page (parallel route)
 - [] Delete button (w/ server Actions)
 - [] Analytics (posthog)
@@ -19,11 +19,13 @@
 
 ## USED TECNOLOGIES
 
-- Github to Version
-- Vercel to deploy
-- Uploadthing to storage image
+- Github to Versioning
+- Vercel to Deploying
+- Uploadthing to Image Storage
 - Drizle to Database
 - Clerck to Authentication
+- Sentry to Error Treatment 
+- NextGram to Create a Modal Image View
 
 ## WHEN I STOPED CLASS
 
