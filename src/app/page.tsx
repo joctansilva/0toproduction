@@ -1,4 +1,5 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
+import Image from "next/image";
 import { getMyImages } from "~/server/queries";
 
 export const dynamic = "force-dynamic"; // forçar a atualização da página sempre que algo no banco é atualizado
@@ -7,10 +8,16 @@ async function Images() {
   const images = await getMyImages();
 
   return (
-    <div className="flex flex-wrap gap-4 ">
+    <div className="flex flex-wrap justify-center gap-4 ">
       {images.map((image) => (
-        <div key={image.id} className="w-48 p-4">
-          <img src={image.url} />
+        <div key={image.id} className="flex h-48 w-48 flex-col">
+          <Image
+            src={image.url}
+            style={{ objectFit: "contain" }}
+            width={192}
+            height={192}
+            alt={image.name}
+          />
           <div>{image.name}</div>
         </div>
       ))}
@@ -22,7 +29,9 @@ export default async function HomePage() {
   return (
     <main className="">
       <SignedOut>
-        <div className="h-full w-full text-2xl text-center">Please sign in above</div>
+        <div className="h-full w-full text-center text-2xl">
+          Please sign in above
+        </div>
       </SignedOut>
       <SignedIn>
         <Images />
