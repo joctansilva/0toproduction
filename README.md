@@ -12,7 +12,7 @@
 - [X] "taint" (server-only)
 - [X] Use Next/Image component
 - [X] Error management (w/ sentry)
-- [] Routing/image page (parallel route)
+- [X] Routing/image page (parallel route)
 - [] Delete button (w/ server Actions)
 - [] Analytics (posthog)
 - [] Ratelimiting (upstash)
@@ -29,4 +29,4 @@
 
 ## WHEN I STOPED CLASS
 
-1h13m08ss
+2h02m51s
