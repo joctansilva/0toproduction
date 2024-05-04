@@ -20,7 +20,10 @@ export const metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-export default function RootLayout({children, modal}:{
+export default function RootLayout({
+  children,
+  modal,
+}: {
   children: React.ReactNode;
   modal: React.ReactNode;
 }) {
@@ -40,8 +43,8 @@ export default function RootLayout({children, modal}:{
           <div className="grid h-screen grid-rows-[auto,1fr]">
             <TopNav />
             <main className="overflow-y-scroll">{children}</main>
-            {modal}
           </div>
+          {modal}
           <div id="modal-root" />
         </body>
       </html>
