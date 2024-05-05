@@ -16,7 +16,7 @@
 - [x] Update upload button toi be less cringe
 - [x] ShadUIify (specifically toasts)
 - [x] Analytics (posthog)
-- [] Delete button (w/ server Actions)
+- [x] Delete button (w/ server Actions)
 - [] Ratelimiting (upstash)
 
 ## USED TECNOLOGIES
@@ -29,6 +29,8 @@
 - Sentry to Error Treatment
 - NextGram to Create a Modal Image View
 - PostHog Cloud to Analitycs
+- ShadCN UI to button and toast components
+- Upstadsh to Rate Limit
 
 ## WHEN I STOPED CLASS
 
