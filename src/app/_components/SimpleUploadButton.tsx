@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { usePostHog } from "posthog-js/react";
 import { toast } from "sonner";
 import { useUploadThing } from "~/utils/uploadthing";
 
@@ -84,13 +85,18 @@ function MakeUploadToast() {
 export function SimpleUploadButton() {
   const router = useRouter();
 
+  const posthog = usePostHog();
+
   const { inputProps } = useUploadThingInputProps("imageUploader", {
     onUploadBegin() {
+      posthog.capture("upload-begin");
       MakeUploadToast();
     },
     onClientUploadComplete() {
       toast.dismiss("uploading-begin");
-      toast("Upload complete!", { id: "uploading-complete" });
+      toast(<div className="text-lg">Upload Complete!</div>, {
+        id: "uploading-complete",
+      });
       router.refresh();
     },
   });
