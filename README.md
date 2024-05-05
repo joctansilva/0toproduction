@@ -2,21 +2,21 @@
 
 ## TODO
 
-- [X] Make it deply (vercel)
-- [X] Scaffold basi ui with mock data
-- [X] Tidy up build process
-- [X] Actually set up a database (vercel postgres)
-- [X] Attach database to UI
-- [X] Add authentication (w/ clerk)
-- [X] Add image Upload
-- [X] "taint" (server-only)
-- [X] Use Next/Image component
-- [X] Error management (w/ sentry)
-- [X] Routing/image page (parallel route)
-- [X] Update upload button toi be less cringe
-- [X] ShadUIify (specifically toasts)
+- [x] Make it deply (vercel)
+- [x] Scaffold basi ui with mock data
+- [x] Tidy up build process
+- [x] Actually set up a database (vercel postgres)
+- [x] Attach database to UI
+- [x] Add authentication (w/ clerk)
+- [x] Add image Upload
+- [x] "taint" (server-only)
+- [x] Use Next/Image component
+- [x] Error management (w/ sentry)
+- [x] Routing/image page (parallel route)
+- [x] Update upload button toi be less cringe
+- [x] ShadUIify (specifically toasts)
+- [x] Analytics (posthog)
 - [] Delete button (w/ server Actions)
-- [] Analytics (posthog)
 - [] Ratelimiting (upstash)
 
 ## USED TECNOLOGIES
@@ -26,9 +26,10 @@
 - Uploadthing to Image Storage
 - Drizle to Database
 - Clerck to Authentication
-- Sentry to Error Treatment 
+- Sentry to Error Treatment
 - NextGram to Create a Modal Image View
+- PostHog Cloud to Analitycs
 
 ## WHEN I STOPED CLASS
 
-2h02m51s
+2h38m20s
