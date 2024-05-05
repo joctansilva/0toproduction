@@ -10,7 +10,7 @@ import { extractRouterConfig } from "uploadthing/server";
 import { ourFileRouter } from "./api/uploadthing/core";
 import { Toaster } from "sonner";
 import { CSPostHogProvider } from "./_analytics/provider";
-import { TopNav } from "./_components/TopNav";
+import { TopNav } from "./_components/topnav";
 
 const inter = Inter({
   subsets: ["latin"],
