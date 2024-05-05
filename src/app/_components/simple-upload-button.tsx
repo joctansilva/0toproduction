@@ -92,6 +92,10 @@ export function SimpleUploadButton() {
       posthog.capture("upload-begin");
       MakeUploadToast();
     },
+    onUploadError(error) {
+      posthog.capture("upload_error", { error });
+      toast.error(<div className="text-lg">Upload failed!</div>);
+    },
     onClientUploadComplete() {
       toast.dismiss("uploading-begin");
       toast(<div className="text-lg">Upload Complete!</div>, {
