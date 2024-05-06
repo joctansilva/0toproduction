@@ -19,6 +19,13 @@
 - [x] Delete button (w/ server Actions)
 - [x] Ratelimiting (upstash)
 
+## A Chalenge to the viewer
+
+- Fix the Page layout for images of different resolutions
+- Selecting Images on the gallery page
+- Infinite Scroll
+- Folders / albums
+
 ## USED TECNOLOGIES
 
 - Github to Versioning
@@ -31,7 +38,3 @@
 - PostHog Cloud to Analitycs
 - ShadCN UI to button and toast components
 - Upstadsh to Rate Limit
-
-## WHEN I STOPED CLASS
-
-2h38m20s
